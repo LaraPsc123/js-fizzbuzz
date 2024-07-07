@@ -7,12 +7,16 @@ for (let i = 0; i < 100; i++) {
     console.log(number)
 
     // per i multipli di 3 stampi “Fizz” al posto del numero
-    if (number % 3)
-        console.log('Fizz')
+    if (number % 3 == 0) {
+        console.log('Fizz') // string
+    } else if (number % 5 == 0) { // per i multipli di 5 stami "Buzz" al posto del numero
+        console.log('Buzz') // string
+    }
 
-    //per i multipli di 5 stampi “Buzz”
-    if (number % 5)
-        console.log('Buzz')
+
+
+
+
 }
 
 
