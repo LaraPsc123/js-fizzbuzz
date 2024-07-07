@@ -8,9 +8,9 @@ for (let i = 0; i < 100; i++) {
 
     // per i multipli di 3 stampi “Fizz” al posto del numero
     if (number % 3 == 0) {
-        console.log('Fizz') // string
+        console.log("multipli di 3", 'Fizz') // string
     } else if (number % 5 == 0) { // per i multipli di 5 stami "Buzz" al posto del numero
-        console.log('Buzz') // string
+        console.log("multipli di 5", 'Buzz') // string
     }
 
 
