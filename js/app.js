@@ -5,6 +5,10 @@ for (let i = 0; i < 100; i++) {
     //console.log('number', i)
     let number = i + 1 // number
     console.log(number)
+    // per i multipli di 3 e 5 stampi "FizzBuzz"
+    if (number % 3 == 0 & number % 5 == 0) {
+        console.log("multipli di 3 e di 5", 'FizzBuzz')
+    }
 
     // per i multipli di 3 stampi “Fizz” al posto del numero
     if (number % 3 == 0) {
