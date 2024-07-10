@@ -10,11 +10,15 @@ let utente = prompt('inserisci un nome')
 for (let i = 0; i <= nomi.length; i++) {
     console.log(i)
     let nomiUtenti = nomi[i]
+    console.log(i, nomiUtenti)
+    // SE il prompt è uguale alla lista
+    if (utente == nomi[i]) {
+        console.log('puoi partecipare alla festa')
+    } else if (utente != nomi) {
+        console.log('non puoi partecipare')
+    }
 }
 
 
 
 
-// PRIMA ITERAZIONE
-let nomiUtenti = nomi[0]
-console.log(i, nomiUtenti)
