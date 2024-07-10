@@ -11,10 +11,10 @@ for (let i = 0; i <= nomi.length; i++) {
     console.log(i)
     let nomiUtenti = nomi[i]
     console.log(i, nomiUtenti)
-    // SE il prompt è uguale alla lista
+    // SE il prompt è uguale a Carlo
     if (utente == nomi[i]) {
         console.log('puoi partecipare alla festa')
-    } else if (utente != nomi) {
+    } else if (utente != nomi[i]) {
         console.log('non puoi partecipare')
     }
 }
