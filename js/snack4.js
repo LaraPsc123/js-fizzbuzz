@@ -7,8 +7,14 @@ console.log(nomi)
 let utente = prompt('inserisci un nome')
 
 // ciclo for
-for (let i = 0; i == nomi.length; i++) [
+for (let i = 0; i <= nomi.length; i++) {
     console.log(i)
     let nomiUtenti = nomi[i]
+}
 
-]
+
+
+
+// PRIMA ITERAZIONE
+let nomiUtenti = nomi[0]
+console.log(i, nomiUtenti)
